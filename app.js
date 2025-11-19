@@ -24,7 +24,8 @@ function form() {
   }
   else if (d != e)
   {
-    alert("Please Enter Same Password !")
+    alert("Please Enter Same Password !");
+    return false;
   }
   else
   {
